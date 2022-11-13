@@ -1,0 +1,8 @@
+CREATE TABLE ADDRESS(
+HouseNo NUMBER,
+Street VARCHAR2(30),
+city VARCHAR2(20) references City(city),
+ZIP NUMBER(6) check(Zip>=0),
+STATE VARCHAR2(5),
+PRIMARY KEY(HouseNo,Street,City)
+);
