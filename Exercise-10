@@ -1,0 +1,34 @@
+Insert a record into Salesman table with the values "11, Elizabeth, London" as "SId, SName, Location" respectively.
+
+Write your query here
+  
+Database structure
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+Query Result
+SID	SNAME	LOCATION
+1	Peter	London
+2	Michael	Paris
+3	John	Mumbai
+4	Harry	Chicago
+5	Kevin	London
+6	Alex	Chicago
+11	Elizabeth	London
+1 row(s) created.
+Expected Result
+SID	SNAME	LOCATION
+11	Elizabeth	London
+1	Peter	London
+2	Michael	Paris
+3	John	Mumbai
+4	Harry	Chicago
+5	Kevin	London
+6	Alex	Chicago
+
+
+
+INSERT INTO SALESMAN 
+(Sid,Sname,Location)
+VALUES(11,'Elizabeth','London');
