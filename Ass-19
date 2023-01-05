@@ -1,0 +1,6 @@
+Insert the following data into Supplier table created on Day 2.
+Supplierid	Name	ContactNo	City
+S501	Avaya Ltd	9012345678	Mysore
+
+
+INSERT INTO Supplier Values('S501','Avaya Ltd',9012345678,'Mysore');
