@@ -1,0 +1,28 @@
+ass-25
+SELECT itemcode,Descr,price from item where Category='B' AND DESCr LIKE '%Shirt%' or
+Descr LIKE '%Skirt%';
+
+Aas26
+
+SELECT DISTINCT Designation,SALARY FROM Empdetails;
+
+ass27
+
+SELECT Itemcode,descr,price from item;
+
+ass 28
+SELECT Quotationid,SNAME FROM Quotation where Qstatus IN('Accepted','Rejected')
+
+ass29
+SELECT itemcode,Descr,Price from item where descr Like '_r%';
+
+ass30
+select distinct itemtype from item;
+
+ass31
+SELECT ORDERID,QUOTATIONID,STATUS,PYMTDATE FROM ORDERS WHERE PYMTDATE IS NULL;
+
+Ass 32
+select distinct itemtype,Category from item;
+
+Ass- 33
