@@ -1,0 +1,19 @@
+#Ass 31
+SELECT Orderid,Quotationid,
+Status,pymtdate from Orders
+where PYMTDATE IS NULL; 
+
+#Ass 32
+
+SELECT DISTINCT ITEMTYPE,CATEGORY FROM 
+ITEM;
+
+#Ass 33
+
+SELECT Empid, salary as "Current Salary", salary+(salary*10/100) as "New Salary", salary*10/100 as "Incremented Amount" FROM Empdetails;
+
+#Ass 34
+
+INSERT into City(City) VALUES('Mysore')
+
+#
