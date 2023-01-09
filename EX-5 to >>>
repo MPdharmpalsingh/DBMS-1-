@@ -30,3 +30,4 @@ SELECT Prodid,Pdesc,Category from Product where LOWER(Category)='electronics'
  SELECT NVL(PDESC,'No Description') PDESC,Discount from product
  
  
+ 
