@@ -19,3 +19,14 @@ DELETE FROM Saledetail WHERE QUANTITY>5;
 
 EX-23
 SELECT Prodid,Pdesc,Category from Product where LOWER(Category)='electronics'
+ EX-24
+ SELECT Prodid,SUBSTR(Pdesc,1,5) "PDESC_FIVE",Category FROM PRODUCT
+ 
+ EX-25
+ SELECT COUNT(Saleid) "SALE_COUNT" FROM Saledetail
+ 
+ EX-26
+ 
+ SELECT NVL(PDESC,'No Description') PDESC,Discount from product
+ 
+ 
