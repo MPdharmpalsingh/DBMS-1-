@@ -14,3 +14,8 @@ ex-6
 DELETE FROM SaleDetail Where Saleid=1004
 
 
+ex-22
+DELETE FROM Saledetail WHERE QUANTITY>5;
+
+EX-23
+SELECT Prodid,Pdesc,Category from Product where LOWER(Category)='electronics'
