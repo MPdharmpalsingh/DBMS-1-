@@ -34,5 +34,6 @@ FROM ORDERS WHERE ROUND(MONTHS_BETWEEN(PYMTDATE, ORDERDATE),2)>0.1 AND STATUS='D
 #43
 SELECT EMPID, SALARY "Current Salary", ROUND(SALARY*1.2,2) "New Salary",
 SALARY*0.2 "Incremented Amount" from Empdetails where Designation='Manager' 
-
+ #44
+ select itemcode from item where abs(Qtyonhand-Reorderlevel)>50
 
